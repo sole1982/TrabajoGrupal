@@ -19,7 +19,7 @@ const TarjetaProducto = ({ articulo }) => {
         <div className="innerCard">
           <div className="frontSide">
           
-            <Imagenes className="title imgProductos" />
+            <Imagenes  />
             <Articulos
               nombre={articulo.nombre}
               precio={articulo.precio}

@@ -5,7 +5,7 @@ const FormInicioSesion = ({ onSignUpClick }) => {
   return (
 
     <>
-    
+    <div className='centrarForm'>
     <div class="form-container">
       <p class="title">Inicie Sesión</p>
       <form class="form">
@@ -43,7 +43,7 @@ const FormInicioSesion = ({ onSignUpClick }) => {
         </div>
       </div>
     </div>
-    
+    </div>
     </>
     
   )

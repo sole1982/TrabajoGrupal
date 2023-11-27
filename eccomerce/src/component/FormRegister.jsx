@@ -4,10 +4,10 @@ import "../styles/FormRegStyle.css"
 const FormRegister = ({ onSignInClick }) => { 
   return (
     <>
-
+<div className='centrarForm'>
         <div class="form-container">
             <p class="title">Regístrese</p>
-            <p class="sub-title">Complete sus datos:</    p>
+            <p class="sub-title">Complete sus datos:</p>
             <form class="form">
               <input type="text" class="input" placeholder="Nombre"/>
               <input type="email" class="input" placeholder="Email"/>
@@ -25,7 +25,7 @@ const FormRegister = ({ onSignInClick }) => {
                 </svg>
                 <span>Regístrese con Apple</span>
               </div>
-              <div class="google-login-button">
+              <div class="google-login-button h-8 ">
                 <svg stroke="currentColor" fill="currentColor"     stroke-width="0"    ve  rsion="1.1" x="0px" y="0px"     class="google-icon" viewBox="0 0 48    48  " height="1em"     width="1em" xmlns="http://www.w3.org/2000/svg">
                   <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.    649,   4.  657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12
 	    c0  -6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.    657C34.   04  6,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24
@@ -37,11 +37,11 @@ const FormRegister = ({ onSignInClick }) => {
                   <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.    792,   2.  237-2.231,4.166-4.087,5.571
 	    c0  .001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,    44,   24  C44,22.659,43.862,21.35,43.611,20.083z"></path>
                 </svg>
-                <span>Regístrese con Google</span>
+                <span >Regístrese con Google</span>
               </div>
           </div>
         </div>
-    
+        </div>
     </>
       )
 }

@@ -4,9 +4,9 @@ import TarjetaProducto from '../component/TarjetaProducto';
 
 const Productos = () => {
   const listaDeArticulos = [
-    { id: 1, nombre: 'Título 1', precio: '$10' },
-    { id: 2, nombre: 'Título 2', precio: '$20' },
-    { id: 3, nombre: 'Título 3', precio: '$20' },
+    { id: 1, nombre: 'Remera', precio: '$10' },
+    { id: 2, nombre: 'Pantalon', precio: '$20' },
+    { id: 3, nombre: 'Pullover', precio: '$30' },
     
    
   ];

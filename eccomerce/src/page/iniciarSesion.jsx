@@ -10,7 +10,7 @@ const iniciarSesion = () => {
   };
 
   return (
-    <div>
+    <div style={{paddingBottom: '20%'}}>
       {isLoginFormVisible ? (
         <FormInicioSesion onSignUpClick={toggleForm} />
       ) : (

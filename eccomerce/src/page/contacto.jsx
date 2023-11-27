@@ -1,14 +1,16 @@
-import React from 'react'
-import FormContacto from '../component/FormContacto'
+import FormContacto from "../component/FormContacto";
+import React, {useState} from "react";
 
-const contacto = () => {
-  return (
-    <>
-    
-    <FormContacto/>
-    
+
+const Contacto = () => {
+    return (
+      <>
+<div style={{paddingBottom: '30%' }}>
+<FormContacto/>
+</div>
+
     </>
-  )
-}
-
-export default contacto
+)
+  };
+  
+  export default Contacto;

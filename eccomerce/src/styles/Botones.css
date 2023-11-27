@@ -1,6 +1,6 @@
 button {
     --hover-shadows: 
-                      -16px -16px 33px #303030;
+                    -6px -6px 12px #303030;
     
     font-weight: bold;
     letter-spacing: 0.1em;
@@ -15,18 +15,16 @@ button {
                 letter-spacing ease-in-out 0.1s,
                 transform ease-in-out 0.1s;
     box-shadow: 
-                -13px -13px 10px #262626;
-   }
-   
-   button:hover {
+                -3px -3px 5px #262626;
+}
+
+button:hover {
     box-shadow: var(--hover-shadows);
-   }
-   
-   button:active {
+}
+
+button:active {
     box-shadow: var(--hover-shadows),
-                 var(--accent) 0px 0px 30px 5px;
+                var(--accent) 0px 0px 30px 5px;
     background-color: var(--accent);
     transform: scale(0.95);
-   }
-   
-   
+}
